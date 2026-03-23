@@ -1,5 +1,6 @@
-import flask import jsonify, request
+from flask import Flask, jsonify , request
 
-app=Flask(__name__)
+app =Flask(__name__)
+@app.route('/api/sumar', methods=['POST'])
 
-##primer comentario
+##API basica para ilustrar el funcionamiento de un request http
